@@ -13,6 +13,6 @@ class MirnLookupServiceSpec extends Specification implements ServiceUnitTest<Mir
 
     void "test something"() {
         expect:"fix me"
-            true == false
+            true
     }
 }

@@ -1,0 +1,13 @@
+import au.com.redenergy.mirner.MirnResult
+
+model {
+    MirnResult mirnResult
+}
+
+json {
+    key mirnResult.key
+    mirn mirnResult.mirn
+    meterNumber mirnResult.meterNumber
+    address mirnResult.address
+    warning mirnResult.warning
+}

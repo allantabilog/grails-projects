@@ -1,0 +1,12 @@
+import javax.servlet.ServletContext
+
+model {
+    String timestamp
+    params params
+}
+
+json {
+    message 'Scopes'
+    time timestamp
+    params params
+}

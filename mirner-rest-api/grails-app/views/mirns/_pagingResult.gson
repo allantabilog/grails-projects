@@ -1,0 +1,13 @@
+import au.com.redenergy.mirner.PagingResult
+
+model {
+    PagingResult pagingResult
+}
+
+json {
+    totalCount pagingResult.totalCount
+    limit pagingResult.limit
+    offset pagingResult.offset
+    lastPage pagingResult.lastPage
+    lastRecordKey pagingResult.lastRecordKey
+}

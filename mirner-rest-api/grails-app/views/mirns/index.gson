@@ -1,0 +1,7 @@
+model {
+    String timestamp
+}
+json {
+    message 'Index page for the Mirns controller'
+    time timestamp
+}

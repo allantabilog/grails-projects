@@ -1,0 +1,9 @@
+import au.com.redenergy.mirner.SearchResult
+
+model {
+    SearchResult searchResult
+}
+
+json {
+    searchResult searchResult
+}

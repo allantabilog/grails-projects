@@ -1,0 +1,10 @@
+import au.com.redenergy.mirner.SearchResult
+
+model {
+    SearchResult searchResult
+}
+
+json {
+    pagination g.render(template: 'pagingResult', model: [pagingResult: searchResult.pagingResult])
+    mirns g.render(template: 'mirnResult', collection: searchResult.mirns, var: 'mirnResult')
+}

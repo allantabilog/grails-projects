@@ -1,3 +1,4 @@
 3/Mar
 o Refactor the SearchRequest to be a command object and implement validation of search params
 o Replace if/else with strategy in service method
+o Implement RedMirnDataService and LumoMirnDataService
